@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+.container0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, #6b1bc0 0%, #2575fc 100%); */
+background-image: url(wp9077770.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.wrapper{
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0px 0px 11px 0px #ffffff61;
+}
+.wrapper form h1{
+    text-align: center;
+    color: white;
+    top: -12px;
+    font-size: 40px;
+    position: relative;
+}
+.wrapper form .inp-con{
+    margin: 14px 11px 20px 11px;
+}
+.wrapper .inp{
+    width: 100%;
+    border-radius: 20px;
+    opacity: 0.8;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgba(255,255,255.2);
+    font-size: 16px;
+    padding: 10px 25px 10px 20px;
+}
+.wrapper .forget-password{
+    display: flex;
+    font-size: 16px;
+    position: relative;
+    justify-content: space-between;
+    top: 7px;
+    
+}
+.forget-password label{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+}
+.forget-password label input{
+    margin-right: 10px;
+}
+.forget-password a{
+    text-decoration: none;
+    margin-right: 2px;
+    color: white;
+}
+.forget-password a:hover{
+    text-decoration: underline;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+}
+button{
+    width: 86%;
+    height: 28px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 33px;
+    background: white;
+}
+.reg-link{
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    top: 26px;
+    padding: 0px 0px 7px 0px;
+}
+.reg-link a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.reg-link a:hover{
+    text-decoration: underline;
+}
